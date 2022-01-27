@@ -1,0 +1,550 @@
+/* header 始め */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.header-img {
+  width: 30%;
+  margin: 10px auto 0 0;
+}
+
+.header-ttl-link {
+  text-decoration: none;
+  color: #00277e;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.header-nav-item {
+  list-style: none;
+  font-size: 20px;
+}
+
+.header-nav-item:not(:last-of-type) {
+  margin-right: 50px;
+}
+
+.header-nav-item-link {
+  text-decoration: none;
+  color: #00277e;
+}
+
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+
+  .line-top,
+  .line-middle,
+  .line-bottom {
+    display: block;
+    width: 35px;
+    height: 3px;
+    background-color: #00277e;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+  }
+
+  .line-top {
+    transform: translateY(-10px);
+  }
+
+  .line-bottom {
+    transform: translateY(10px);
+  }
+}
+/* header 終わり */
+
+/* main タイトル　始め */
+body {
+  background-image: url(../img/firstview.jpg);
+  background-position: 100% 70px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Gloria Hallelujah", cursive;
+  color: MediumVioletRed;
+  font-size: 80px;
+  width: 60%;
+  padding: 10px;
+  margin: 50px 10px 10px 80px;
+  line-height: 200%;
+}
+
+.font_test {
+  font-family: "Gloria Hallelujah", cursive;
+  color: DodgerBlue;
+  font-size: 80px;
+  bottom: 50px;
+}
+
+.sin {
+  color: MediumVioletRed;
+  font-size: 35px;
+  margin: 10px 10px 10px 100px;
+}
+
+.font_txt {
+  color: DodgerBlue;
+  font-size: 35px;
+  margin: 10px 0 10px 0;
+}
+
+.sin-text {
+  font-size: 25px;
+  margin: 10px 10px 10px 100px;
+  width: 30%;
+}
+/* main タイトル　終わり */
+
+/*main new 開始  */
+.pp {
+  font-family: "Gloria Hallelujah", cursive;
+  color: MediumVioletRed;
+  margin: 250px 10px 10px 200px;
+  font-size: 20px;
+}
+
+.h-pp {
+  margin: 10px 10px 10px 200px;
+  font-size: 30px;
+}
+
+.news-list {
+  list-style: none outside;
+  width: 60%;
+  margin: 10px 10px 10px 200px;
+  padding: 0;
+}
+.news-list .item a {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 20px;
+}
+.news-list .item:first-child a {
+  border-top: 1px solid #ccc;
+}
+.news-list .item .date {
+  margin: 0;
+  min-width: 140px;
+  font-size: 25px;
+  padding: 0 20px 0 0;
+}
+.news-list .item .category {
+  margin: 0;
+  min-width: 140px;
+  padding: 0 20px 0 0;
+}
+.news-list .item .category span {
+  background: MediumVioletRed;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 30px;
+  font-size: 15px;
+  line-height: 1;
+  border-radius: 100vh;
+}
+.news-list .item .title {
+  margin: 0;
+  width: 100%;
+  font-size: 25px;
+}
+.news-list .item a:hover .title {
+  color: #00f;
+}
+
+@media screen and (max-width: 767px) {
+  .news-list .item a {
+    flex-wrap: wrap;
+  }
+  .news-list .item .date {
+    min-width: 100px;
+  }
+  .news-list .item .title {
+    margin-top: 10px;
+  }
+}
+/* main new 終わり */
+
+/* main about 開始 */
+.pp-test {
+  font-family: "Gloria Hallelujah", cursive;
+  color: MediumVioletRed;
+  margin: 100px 10px 10px 650px;
+  font-size: 20px;
+}
+
+.h-test {
+  margin: 10px 10px 10px 500px;
+  font-size: 30px;
+}
+
+.test {
+  background-color: #ebebeb;
+  margin: 200px 50px 10px 50px;
+  padding-top: 10px;
+}
+
+.about {
+  padding: 60px 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about__img img {
+  width: 80%;
+}
+
+.about__img {
+  width: 40%;
+}
+
+.about__content {
+  width: 34%;
+  margin: 10px 10px 10px 100px;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+/* main about 終わり */
+
+/* main service 開始 */
+.grid {
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 2fr 2fr;
+  margin-bottom: 200px;
+}
+
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: #b31667;
+}
+
+.box1-img {
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  position: relative;
+}
+
+.box1-h {
+  margin-top: 25px;
+  margin-left: 15%;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+}
+
+.box1-p {
+  position: absolute;
+  color: white;
+  margin: 60px 40px 30px 40px;
+  padding-right: 50%;
+  font-size: 18px;
+  line-height: 200%;
+}
+
+.box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: #b35b8b;
+  display: flex;
+}
+
+.box2-img {
+  margin-top: 18px;
+  width: 40%;
+  position: relative;
+}
+
+.box2-h {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  margin: 60px 0 0 250px;
+}
+
+.box2-p {
+  position: absolute;
+  color: white;
+  margin: 100px 0 0 250px;
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+.box3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: #b2889e;
+  display: flex;
+}
+
+.box3-img {
+  margin-top: 20px;
+  width: 40%;
+  position: relative;
+}
+
+.box3-h {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  margin: 60px 0 0 250px;
+}
+
+.box3-p {
+  position: absolute;
+  color: white;
+  margin: 100px 0 0 250px;
+  padding-right: 10%;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+/* main service 終わり */
+
+/* main blog 開始 */
+.pp-txt {
+  font-family: "Gloria Hallelujah", cursive;
+  color: MediumVioletRed;
+  margin: 100px 10px 10px 200px;
+  font-size: 20px;
+}
+
+.h-txt {
+  margin: 10px 10px 50px 200px;
+  font-size: 30px;
+}
+
+.card {
+  width: 360px;
+  margin: 100px auto 0;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  position: relative;
+  background-color: white;
+}
+
+.card__img img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card__item {
+  padding: 15px 25px;
+}
+
+.card__content-ttl {
+  font-size: 18px;
+  margin: 10px 40px 30px 40px;
+  font-weight: 400;
+}
+
+.card__content-cat {
+  padding: 10px 25px;
+  background: MediumVioletRed;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 20px 0 0 0;
+  position: absolute;
+  left: 0;
+}
+
+.card__content-tag {
+  font-size: 14px;
+  text-align: right;
+}
+
+.card__content-tag-item {
+  display: inline-block;
+  margin-right: 0 0 20px 0;
+}
+
+.card__content-tag-item--last {
+  display: inline-block;
+  margin: 0 30px 20px 100px;
+}
+
+.card {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.card-group {
+  text-align: center;
+}
+
+.card_test {
+  background-color: #ebebeb;
+  margin: 0 50px 0 50px;
+  padding-bottom: 50px;
+  padding-top: 5px;
+}
+
+.original-button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: MediumVioletRed;
+  font-size: 20px;
+  border-radius: 17px;
+  width: 300px;
+  height: 60px;
+  font-weight: bold;
+  border: 3px solid MediumVioletRed;
+  transition: 0.3s;
+  background-color: #fafafa;
+  margin: 70px 10px 0 550px;
+  border-radius: 50px;
+}
+
+.original-button:hover {
+  transform: scale(1.05);
+}
+
+/* main blog 終わり */
+
+/* main Company 開始 */
+table {
+  width: 70%;
+  margin: 10px 10px 10px 200px;
+  border-collapse: collapse;
+  font-size: 25px;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+table th {
+  font-weight: bold;
+  background-color: #dedede;
+  text-align: left;
+}
+
+table td {
+  width: 70%;
+}
+/* main Company 終わり */
+
+/* footer 開始 */
+.footer-img {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-img2 {
+  position: relative;
+}
+
+.footer-img2 p {
+  position: absolute;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.footer-img3 {
+  position: relative;
+}
+
+.footer-img3 p {
+  position: absolute;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.footer-txt {
+  text-align: center;
+  margin-top: 5%;
+  color: #808080;
+}
+
+.original-button {
+  margin: 30px 10px 10px 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 40px;
+  width: 300px;
+  height: 70px;
+  font-weight: bold;
+  border-bottom: 5px solid #b46436;
+  transition: 0.3s;
+  background-image: linear-gradient(
+    150deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 34, 211, 1) 3%,
+    rgba(211, 26, 102, 1) 96%,
+    rgba(154, 39, 238, 1) 100%,
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.button-txt {
+  font-size: 40px;
+  margin-right: 10%;
+}
+
+.original-button:hover {
+  border-bottom-width: 0;
+  transform: translateY(5px);
+}
+
+.footer-small {
+  background-color: #f0fff0;
+  text-align: center;
+  color: #808080;
+  margin-top: 5%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer-form {
+  text-align: center;
+  margin-top: 20px;
+}
+/* footer 終わり */
