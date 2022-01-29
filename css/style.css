@@ -1,3 +1,7 @@
+* {
+  outline: 1px solid red !important;
+}
+
 /* header 始め */
 .header {
   display: flex;
@@ -66,19 +70,19 @@
 
 /* main タイトル　始め */
 .sin-f {
-  height: 200px;
+  height: 100px;
   position: relative;
   display: flex;
-  align-items: center;
   margin-bottom: 600px;
+  align-items: center;
 }
 
-.sin-hh{
+.sin-hh {
   padding: 20px;
   flex-basis: 60%;
   position: absolute;
-  margin: 300px 50px 0 0;
-  padding:0 250px;
+  margin: 500px 50px 0 50px;
+  padding: 0 100px;
 }
 
 h1 {
@@ -111,13 +115,11 @@ h1 {
 }
 
 .sin-img {
-  width: 40%;
   height: 200px;
-  margin: 20px 0 0 550px;
   display: grid;
-  align-items: center;
+  margin-left: auto;
+  margin-top: 200px;
 }
-
 /* main タイトル　終わり */
 
 /*main new 開始  */
@@ -208,7 +210,8 @@ h1 {
 
 .test {
   background-color: #ebebeb;
-  margin: 200px 0 10px 0;
+  width: 100%;
+  margin-top: 50px;
   padding-top: 10px;
 }
 
@@ -263,7 +266,7 @@ h1 {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
-    margin: 20px 0 0 250px;
+  margin: 20px 0 0 250px;
 }
 
 .box1-p {
@@ -280,7 +283,7 @@ h1 {
   display: flex;
 }
 
-.box2-hp{
+.box2-hp {
   margin: 70px 80px 0 80px;
 }
 
@@ -309,7 +312,7 @@ h1 {
   display: flex;
 }
 
-.box3-hp{
+.box3-hp {
   margin: 70px 80px 0 80px;
 }
 
@@ -393,12 +396,13 @@ h1 {
 
 .card__content-tag-item--last {
   display: inline-block;
-  margin: 0 30px 20px 100px;
+  margin: 0 0 20px 0;
 }
 
 .card {
   display: inline-block;
   margin: 0 30px;
+  width: 20%;
 }
 
 .card-group {
@@ -407,8 +411,9 @@ h1 {
 
 .card_test {
   background-color: #ebebeb;
-  padding-bottom: 50px;
+  width: 100%;
   padding-top: 5px;
+  padding-bottom: 50px;
 }
 
 .original-button2 {
@@ -426,7 +431,8 @@ h1 {
   border: 3px solid MediumVioletRed;
   transition: 0.3s;
   background-color: #fafafa;
-  margin: 70px 10px 0 550px;
+  margin: auto;
+  margin-top: 100px;
   border-radius: 50px;
 }
 
@@ -472,7 +478,8 @@ table td {
 }
 
 .footer-img2 img {
-  width: 800px;
+  height: 100%;
+  width: 110%;
 }
 
 .footer-img2 p {
@@ -488,10 +495,14 @@ table td {
 
 .footer-img3 {
   position: relative;
+  display: grid;
+  margin-left: auto;
 }
 
 .footer-img3 img {
-  width: 800px;
+  margin-right: 100px;
+  width: 100%;
+  height: auto;
 }
 
 .footer-img3 p {
@@ -512,7 +523,8 @@ table td {
 }
 
 .original-button {
-  margin: 30px 10px 10px 600px;
+  margin: auto;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
