@@ -25,7 +25,7 @@
 
 .header-nav-item {
   list-style: none;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .header-nav-item:not(:last-of-type) {
@@ -65,19 +65,26 @@
 /* header 終わり */
 
 /* main タイトル　始め */
-body {
-  background-image: url(../img/firstview.jpg);
-  background-position: 100% 70px;
-  background-repeat: no-repeat;
+.sin-f {
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 600px;
+}
+
+.sin-hh{
+  padding: 20px;
+  flex-basis: 60%;
+  position: absolute;
+  margin: 300px 50px 0 0;
+  padding:0 250px;
 }
 
 h1 {
   font-family: "Gloria Hallelujah", cursive;
   color: MediumVioletRed;
   font-size: 80px;
-  width: 60%;
-  padding: 10px;
-  margin: 50px 10px 10px 80px;
   line-height: 200%;
 }
 
@@ -85,46 +92,51 @@ h1 {
   font-family: "Gloria Hallelujah", cursive;
   color: DodgerBlue;
   font-size: 80px;
-  bottom: 50px;
 }
 
 .sin {
   color: MediumVioletRed;
   font-size: 35px;
-  margin: 10px 10px 10px 100px;
+  margin-top: 100px;
 }
 
 .font_txt {
   color: DodgerBlue;
   font-size: 35px;
-  margin: 10px 0 10px 0;
 }
 
 .sin-text {
-  font-size: 25px;
-  margin: 10px 10px 10px 100px;
+  font-size: 16px;
   width: 30%;
 }
+
+.sin-img {
+  width: 40%;
+  height: 200px;
+  margin: 20px 0 0 550px;
+  display: grid;
+  align-items: center;
+}
+
 /* main タイトル　終わり */
 
 /*main new 開始  */
 .pp {
   font-family: "Gloria Hallelujah", cursive;
   color: MediumVioletRed;
-  margin: 250px 10px 10px 200px;
-  font-size: 20px;
+  margin: 100px 10px 10px 350px;
+  font-size: 16px;
 }
 
 .h-pp {
-  margin: 10px 10px 10px 200px;
+  margin: 10px 10px 10px 350px;
   font-size: 30px;
 }
 
 .news-list {
   list-style: none outside;
   width: 60%;
-  margin: 10px 10px 10px 200px;
-  padding: 0;
+  margin: auto;
 }
 .news-list .item a {
   display: flex;
@@ -141,7 +153,7 @@ h1 {
 .news-list .item .date {
   margin: 0;
   min-width: 140px;
-  font-size: 25px;
+  font-size: 16px;
   padding: 0 20px 0 0;
 }
 .news-list .item .category {
@@ -162,7 +174,7 @@ h1 {
 .news-list .item .title {
   margin: 0;
   width: 100%;
-  font-size: 25px;
+  font-size: 16px;
 }
 .news-list .item a:hover .title {
   color: #00f;
@@ -196,7 +208,7 @@ h1 {
 
 .test {
   background-color: #ebebeb;
-  margin: 200px 50px 10px 50px;
+  margin: 200px 0 10px 0;
   padding-top: 10px;
 }
 
@@ -218,15 +230,15 @@ h1 {
 .about__content {
   width: 34%;
   margin: 10px 10px 10px 100px;
-  font-size: 20px;
-  line-height: 200%;
+  font-size: 16px;
+  line-height: 300%;
 }
 
 /* main about 終わり */
 
 /* main service 開始 */
 .grid {
-  width: 80%;
+  width: 90%;
   margin: 50px auto;
   display: grid;
   grid-template-rows: 300px 300px;
@@ -244,24 +256,21 @@ h1 {
   margin-top: 30px;
   margin-left: 25%;
   width: 50%;
-  position: relative;
 }
 
 .box1-h {
-  margin-top: 25px;
-  margin-left: 15%;
-  position: absolute;
   color: white;
+  margin: 0;
   font-size: 20px;
+  font-weight: bold;
+    margin: 20px 0 0 250px;
 }
 
 .box1-p {
-  position: absolute;
   color: white;
-  margin: 60px 40px 30px 40px;
-  padding-right: 50%;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 200%;
+  margin: 40px 50px 0 50px;
 }
 
 .box2 {
@@ -271,26 +280,26 @@ h1 {
   display: flex;
 }
 
+.box2-hp{
+  margin: 70px 80px 0 80px;
+}
+
 .box2-img {
-  margin-top: 18px;
-  width: 40%;
-  position: relative;
+  margin-top: 30px;
+  width: 100%;
 }
 
 .box2-h {
-  position: absolute;
   color: white;
   font-size: 20px;
-  margin: 60px 0 0 250px;
+  font-weight: bold;
 }
 
 .box2-p {
-  position: absolute;
   color: white;
-  margin: 100px 0 0 250px;
-  padding-right: 10%;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 200%;
+  margin-top: 20px;
 }
 
 .box3 {
@@ -300,26 +309,26 @@ h1 {
   display: flex;
 }
 
+.box3-hp{
+  margin: 70px 80px 0 80px;
+}
+
 .box3-img {
-  margin-top: 20px;
-  width: 40%;
-  position: relative;
+  margin-top: 30px;
+  width: 100%;
 }
 
 .box3-h {
-  position: absolute;
   color: white;
   font-size: 20px;
-  margin: 60px 0 0 250px;
+  font-weight: bold;
 }
 
 .box3-p {
-  position: absolute;
   color: white;
-  margin: 100px 0 0 250px;
-  padding-right: 10%;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 200%;
+  margin-top: 20px;
 }
 
 /* main service 終わり */
@@ -356,7 +365,7 @@ h1 {
 }
 
 .card__content-ttl {
-  font-size: 18px;
+  font-size: 16px;
   margin: 10px 40px 30px 40px;
   font-weight: 400;
 }
@@ -398,7 +407,6 @@ h1 {
 
 .card_test {
   background-color: #ebebeb;
-  margin: 0 50px 0 50px;
   padding-bottom: 50px;
   padding-top: 5px;
 }
@@ -430,10 +438,10 @@ h1 {
 
 /* main Company 開始 */
 table {
-  width: 70%;
-  margin: 10px 10px 10px 200px;
+  width: 60%;
+  margin: auto;
   border-collapse: collapse;
-  font-size: 25px;
+  font-size: 16px;
 }
 table th,
 table td {
@@ -448,7 +456,7 @@ table th {
 }
 
 table td {
-  width: 70%;
+  width: 60%;
 }
 /* main Company 終わり */
 
@@ -463,6 +471,10 @@ table td {
   position: relative;
 }
 
+.footer-img2 img {
+  width: 800px;
+}
+
 .footer-img2 p {
   position: absolute;
   font-size: 25px;
@@ -471,13 +483,15 @@ table td {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 0;
   color: white;
 }
 
 .footer-img3 {
   position: relative;
+}
+
+.footer-img3 img {
+  width: 800px;
 }
 
 .footer-img3 p {
@@ -488,8 +502,6 @@ table td {
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 0;
   color: white;
 }
 
