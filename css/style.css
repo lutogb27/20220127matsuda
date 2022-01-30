@@ -141,7 +141,7 @@ h1 {
 
 .news-list {
   list-style: none outside;
-  width: 60%;
+  width: 65%;
   margin: auto;
 }
 .news-list .item a {
@@ -249,7 +249,7 @@ h1 {
 
 /* main service 開始 */
 .grid {
-  width: 90%;
+  width: 70%;
   margin: 50px auto;
   display: grid;
   grid-template-rows: 300px 300px;
@@ -348,12 +348,12 @@ h1 {
 .pp-txt {
   font-family: "Gloria Hallelujah", cursive;
   color: MediumVioletRed;
-  margin: 100px 10px 10px 200px;
+  margin: 100px 10px 10px 300px;
   font-size: 20px;
 }
 
 .h-txt {
-  margin: 10px 10px 50px 200px;
+  margin: 10px 10px 50px 300px;
   font-size: 30px;
 }
 
@@ -452,7 +452,7 @@ h1 {
 
 /* main Company 開始 */
 table {
-  width: 60%;
+  width: 65%;
   margin: auto;
   border-collapse: collapse;
   font-size: 16px;
@@ -483,12 +483,13 @@ table td {
 
 .footer-img2 {
   position: relative;
-  margin-right: auto;
+  width: 50%;
 }
 
 .footer-img2 img {
-  height: 100%;
-  width: 150%;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .footer-img2 p {
@@ -505,13 +506,13 @@ table td {
 .footer-img3 {
   position: relative;
   display: grid;
-  margin-right: 150px;
+  width: 50%;
 }
 
 .footer-img3 img {
-  margin-right: 100px;
-  width: 140%;
-  height: auto;
+  height: 200px;
+  width:100%;
+  object-fit: cover;
 }
 
 .footer-img3 p {
