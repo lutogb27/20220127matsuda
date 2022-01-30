@@ -8,12 +8,15 @@
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  padding: 0 30px;
+}
+
+.p.header2-img{
+  margin: 0 -200px 0 -200px;
 }
 
 .header-img {
-  width: 30%;
-  margin: 10px auto 0 0;
+  width: 20%;
+  margin-left: 20px;
 }
 
 .header-ttl-link {
@@ -25,6 +28,7 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+  margin-right: 30PX;
 }
 
 .header-nav-item {
@@ -201,11 +205,15 @@ h1 {
   color: MediumVioletRed;
   margin: 100px 10px 10px 650px;
   font-size: 20px;
+  margin-left: 50%;
+	margin-right: 50%;
 }
 
 .h-test {
   margin: 10px 10px 10px 500px;
   font-size: 30px;
+  margin-left: 40%;
+	margin-right: 40%;
 }
 
 .test {
@@ -213,11 +221,11 @@ h1 {
   width: 100%;
   margin-top: 50px;
   padding-top: 10px;
+
 }
 
 .about {
   padding: 60px 0;
-  margin-top: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -258,7 +266,7 @@ h1 {
 .box1-img {
   margin-top: 30px;
   margin-left: 25%;
-  width: 50%;
+  width: 40%;
 }
 
 .box1-h {
@@ -289,7 +297,7 @@ h1 {
 
 .box2-img {
   margin-top: 30px;
-  width: 100%;
+  width: 50%;
 }
 
 .box2-h {
@@ -318,7 +326,7 @@ h1 {
 
 .box3-img {
   margin-top: 30px;
-  width: 100%;
+  width: 50%;
 }
 
 .box3-h {
@@ -471,15 +479,16 @@ table td {
   margin-top: 10%;
   display: flex;
   justify-content: center;
-}
+}  
 
 .footer-img2 {
   position: relative;
+  margin-right: auto;
 }
 
 .footer-img2 img {
   height: 100%;
-  width: 110%;
+  width: 150%;
 }
 
 .footer-img2 p {
@@ -496,12 +505,12 @@ table td {
 .footer-img3 {
   position: relative;
   display: grid;
-  margin-left: auto;
+  margin-right: 150px;
 }
 
 .footer-img3 img {
   margin-right: 100px;
-  width: 100%;
+  width: 140%;
   height: auto;
 }
 
