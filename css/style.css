@@ -127,21 +127,26 @@ h1 {
 /* main タイトル　終わり */
 
 /*main new 開始  */
+.News{
+  width: 1090px;
+  margin: 0 auto;
+}
+
 .pp {
   font-family: "Gloria Hallelujah", cursive;
   color: MediumVioletRed;
-  margin: 100px 10px 10px 350px;
+  margin: 100px 10px 10px 0px;
   font-size: 16px;
 }
 
 .h-pp {
-  margin: 10px 10px 10px 350px;
+  margin: 10px 10px 10px 0px;
   font-size: 30px;
 }
 
 .news-list {
   list-style: none outside;
-  width: 65%;
+  width: 100%;
   margin: auto;
 }
 .news-list .item a {
@@ -200,20 +205,24 @@ h1 {
 /* main new 終わり */
 
 /* main about 開始 */
+.About{
+  margin: 0 auto;
+}
+
 .pp-test {
   font-family: "Gloria Hallelujah", cursive;
   color: MediumVioletRed;
-  margin: 100px 10px 10px 650px;
+  margin: 100px 0 10px 0;
   font-size: 20px;
   margin-left: 50%;
 	margin-right: 50%;
 }
 
 .h-test {
-  margin: 10px 10px 10px 500px;
+  margin: 10px 0 10px 0;
   font-size: 30px;
   margin-left: 40%;
-	margin-right: 40%;
+	margin-right: 20%;
 }
 
 .test {
@@ -231,7 +240,7 @@ h1 {
 }
 
 .about__img img {
-  width: 80%;
+  width: 100%;
 }
 
 .about__img {
@@ -248,8 +257,13 @@ h1 {
 /* main about 終わり */
 
 /* main service 開始 */
+.service{
+  width: 1090px;
+  margin: 0 auto;
+}
+
 .grid {
-  width: 70%;
+  width: 100%;
   margin: 50px auto;
   display: grid;
   grid-template-rows: 300px 300px;
@@ -297,7 +311,7 @@ h1 {
 
 .box2-img {
   margin-top: 30px;
-  width: 50%;
+  width: 60%;
 }
 
 .box2-h {
@@ -326,7 +340,7 @@ h1 {
 
 .box3-img {
   margin-top: 30px;
-  width: 50%;
+  width: 60%;
 }
 
 .box3-h {
@@ -345,15 +359,20 @@ h1 {
 /* main service 終わり */
 
 /* main blog 開始 */
+.Blog{
+    width: 1090px;
+    margin: 0 auto;
+}
+
 .pp-txt {
   font-family: "Gloria Hallelujah", cursive;
   color: MediumVioletRed;
-  margin: 100px 10px 10px 300px;
+  margin: 100px 10px 10px 0;
   font-size: 20px;
 }
 
 .h-txt {
-  margin: 10px 10px 50px 300px;
+  margin: 10px 10px 50px 0;
   font-size: 30px;
 }
 
@@ -377,7 +396,7 @@ h1 {
 
 .card__content-ttl {
   font-size: 16px;
-  margin: 10px 40px 30px 40px;
+  margin: 10px 0 30px 0;
   font-weight: 400;
 }
 
@@ -451,8 +470,13 @@ h1 {
 /* main blog 終わり */
 
 /* main Company 開始 */
+.company{
+    width: 1090px;
+    margin: 0 auto;
+}
+
 table {
-  width: 65%;
+  width: 100%;
   margin: auto;
   border-collapse: collapse;
   font-size: 16px;
