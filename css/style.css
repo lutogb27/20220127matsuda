@@ -601,8 +601,11 @@ table td {
 }
 
 
-.footer-form {
-  text-align: center;
-  margin-top: 20px;
+.footer-box {
+color:rgba(211, 26, 102, 1);
+width:2px;
+height: 50px;
+margin: 0 auto;
+margin-top: 20px;
 }
 /* footer 終わり */
